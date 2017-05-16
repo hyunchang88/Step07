@@ -7,6 +7,7 @@ import test.mypac.Memory;
 
 public class MainClass04 {
 	public static void main(String[] args) {
+		// default 생성자가 없을때 Computer 호출
 		new Computer(new Cpu(),new Memory(),new HardDisk());
 		
 		Cpu a = new Cpu();
